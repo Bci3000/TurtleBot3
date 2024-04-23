@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'binario = ros_nav.robot:main'
+            'binario = ros_nav.checkpoints:main'
         ],
     },
 )
